@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -7,28 +8,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <meta charSet='UTF-8' />
-        <meta http-equiv='X-UA-Compatible' content='IE=edge' />
-        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-
         <title>FourPro - The Best Program to Enroll for Exchange</title>
-        <meta
-          name='title'
-          content='FourPro - The Best Program to Enroll for Exchange'
-        />
-        <meta
-          name='description'
-          content='This is an education html template made by codewithsadee'
-        />
-
-        <link rel='shortcut icon' href='./favicon.svg' type='image/svg+xml' />
-
-        <link rel='preconnect' href='https://fonts.googleapis.com' />
-        <link rel='preconnect' href='https://fonts.gstatic.com' />
-        <link
-          href='https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap'
-          rel='stylesheet'
-        />
       </Head>
 
       <div id='top'>
@@ -147,8 +127,7 @@ const Home: NextPage = () => {
               <div className='container'>
                 <div className='hero-content'>
                   <h1 className='h1 section-title'>
-                    The Best Program to <span className='span'>Enroll</span> for
-                    Exchange
+                    Transpiring <span className='span'>Dreams</span> To Fly High
                   </h1>
 
                   <p className='hero-text'>
