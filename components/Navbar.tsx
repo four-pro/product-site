@@ -79,11 +79,11 @@ const Navbar: React.FC<NavbarProps> = (props) => {
             {/* <ion-icon name="search-outline" aria-hidden="true"></ion-icon> */}
           </button>
 
-          <button className='header-action-btn' aria-label='cart' title='Cart'>
-            {/* <ion-icon name="cart-outline" aria-hidden="true"></ion-icon> */}
+          {/* <button className='header-action-btn' aria-label='cart' title='Cart'>
+            <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
 
             <span className='btn-badge'>0</span>
-          </button>
+          </button> */}
 
           <a href='#' className='btn has-before'>
             <span className='span'>Try for free</span>
