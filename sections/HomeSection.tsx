@@ -31,33 +31,19 @@ const HomeSection: React.FC<HomeSectionProps> = (props) => {
             {/* <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon> */}
           </a>
         </div>
-
-        <figure className='hero-banner'>
-          <div
-            className='img-holder one'
-            style={{
-              width: 341,
-              height: 194,
-              marginTop: '20px',
-            }}
-          >
-            <img
-              src='/test6.svg'
-              //   width='270'
-              //   height='300'
-              alt='hero banner'
-              className='img-cover'
-              style={{ backgroundColor: 'white' }}
-            />
-          </div>
-
+        <div
+        //   className='hero-banner'
+        //   style={{
+        //     position: 'relative',
+        //     alignItems: 'center',
+        //   }}
+        >
           <div
             className='img-holder two'
             style={{
-              width: 281,
-              height: 194,
-              marginTop: '150px',
-              //   marginLeft: '30px',
+              borderRadius: '20px',
+              placeItems: 'center',
+              padding: '30px',
             }}
           >
             <img
@@ -69,24 +55,15 @@ const HomeSection: React.FC<HomeSectionProps> = (props) => {
               style={{ backgroundColor: 'white' }}
             />
           </div>
-
           {/* <img
-            src='./assets/images/hero-shape-1.svg'
-            width='380'
-            height='190'
-            alt=''
-            className='shape hero-shape-1'
-          /> */}
-
-          <img
             src='./assets/images/hero-shape-2.png'
             width='552'
             height='301'
             // style={{ marginBottom: '450px' }}
             alt=''
             className='shape hero-shape-2'
-          />
-        </figure>
+          /> */}
+        </div>
       </div>
     </section>
   );
