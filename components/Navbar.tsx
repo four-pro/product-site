@@ -51,20 +51,20 @@ const Navbar: React.FC<NavbarProps> = (props) => {
             </li>
 
             <li className='navbar-item'>
-              <a href='#courses' className='navbar-link' data-nav-link>
-                Courses
+              <a href='#features' className='navbar-link' data-nav-link>
+                Features
               </a>
             </li>
 
             <li className='navbar-item'>
-              <a href='#blog' className='navbar-link' data-nav-link>
-                Blog
+              <a href='#whatWeOffer' className='navbar-link' data-nav-link>
+                What we offer
               </a>
             </li>
 
             <li className='navbar-item'>
-              <a href='#' className='navbar-link' data-nav-link>
-                Contact
+              <a href='#process' className='navbar-link' data-nav-link>
+                Process
               </a>
             </li>
           </ul>
@@ -85,8 +85,8 @@ const Navbar: React.FC<NavbarProps> = (props) => {
             <span className='btn-badge'>0</span>
           </button> */}
 
-          <a href='#' className='btn has-before'>
-            <span className='span'>Try for free</span>
+          <a href='contact' className='btn has-before'>
+            <span className='span'>Contact</span>
 
             {/* <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon> */}
           </a>
