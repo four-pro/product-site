@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 interface AboutSectionProps {}
 
@@ -8,73 +9,77 @@ const AboutSection: React.FC<AboutSectionProps> = (props) => {
     <section className='section about' id='about' aria-label='about'>
       <div className='container'>
         <figure className='about-banner'>
-          <div className='img-holder' style={{ backgroundColor: 'white' }}>
-            <div className='about-content'>
-              <p className='section-subtitle'>About Us</p>
-
-              <h2 className='h2 section-title'>
-                Over 10 Years in <span className='span'>Distant learning</span>{' '}
-                for Skill Development
-              </h2>
-
-              <p className='section-text'>
-                Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod
-                ex tempor incididunt labore dolore magna aliquaenim ad minim.
-              </p>
-
-              <ul className='about-list'>
-                <li className='about-item'>
-                  {/* <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon> */}
-
-                  <span className='span'>Expert Trainers</span>
-                </li>
-
-                <li className='about-item'>
-                  {/* <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon> */}
-
-                  <span className='span'>Online Remote Learning</span>
-                </li>
-
-                <li className='about-item'>
-                  {/* <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon> */}
-
-                  <span className='span'>Lifetime Access</span>
-                </li>
-              </ul>
-            </div>
+          <div
+            className='img-holder'
+            style={{
+              backgroundColor: 'white',
+              boxShadow: '0 10px 10px rgb(0 0 0 / 0.2)',
+              marginTop: '50px',
+            }}
+            //  //style='--width: 520; --height: 370;'
+          >
+            <img
+              src='/test6.svg'
+              width='520'
+              height='370'
+              loading='lazy'
+              alt='about banner'
+              className='img-cover'
+              style={{
+                backgroundColor: 'white',
+                boxShadow: '0 3px 10px rgb(0 0 0 / 0.2)',
+              }}
+            />
           </div>
+
+          <img
+            src='./assets/images/about-shape-3.png'
+            width='722'
+            height='528'
+            loading='lazy'
+            alt=''
+            className='shape about-shape-3'
+          />
         </figure>
 
         <div className='about-content'>
           <p className='section-subtitle'>About Us</p>
 
-          <h2 className='h2 section-title'>
-            Over 10 Years in <span className='span'>Distant learning</span> for
-            Skill Development
-          </h2>
+          <h3 className='h3 section-title' style={{ fontSize: '35px' }}>
+            Guided by Healthcare professionals with
+            <span className='span'>more than two decades</span> of experience
+          </h3>
 
           <p className='section-text'>
-            Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex
-            tempor incididunt labore dolore magna aliquaenim ad minim.
+            We are a Healthcare professional training division of FourPro,
+            catering to the training and furthering the needs of numerous nurses
+            and allied healthcare professionals to pursue their aspiration of
+            working in premier hospitals in India & Abroad or in pursuing higher
+            studies.
           </p>
+          <p className='section-text'>
+            We strive to empower our nurses and allied health professionals for
+            various assessment tests.
+          </p>
+          <p>Option of Courses to choose:</p>
 
           <ul className='about-list'>
             <li className='about-item'>
-              {/* <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon> */}
+              <ArrowForwardIosIcon />
 
-              <span className='span'>Expert Trainers</span>
+              <span className='span'>Comprehensive Courses</span>
             </li>
 
             <li className='about-item'>
-              {/* <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon> */}
+              <ArrowForwardIosIcon />
 
-              <span className='span'>Online Remote Learning</span>
+              <span className='span'>Intermediate Course</span>
             </li>
 
             <li className='about-item'>
-              {/* <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon> */}
+              <ArrowForwardIosIcon />
 
-              <span className='span'>Lifetime Access</span>
+              <span className='span'>Crash Course</span>
             </li>
           </ul>
 
