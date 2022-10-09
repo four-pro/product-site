@@ -18,12 +18,9 @@ export default class MyDocument extends Document {
 
           <meta
             name='title'
-            content='FourPro - The Best Program to Enroll for Exchange'
+            content='FourPro - Transpiring Dreams To Fly High'
           />
-          <meta
-            name='description'
-            content='This is an education html template made by codewithsadee'
-          />
+          <meta name='description' content='Product site for fourpro' />
 
           <link rel='shortcut icon' href='./favicon.svg' type='image/svg+xml' />
 
