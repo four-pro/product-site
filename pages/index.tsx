@@ -19,8 +19,9 @@ const Home: NextPage = () => {
       </Head>
 
       <div id='top'>
-        <Navbar />
 
+        <h1>Site is down for maintenance or for some other reason. If want to enable, contact.</h1>
+        {/* <Navbar />
         <main>
           <article>
             <HomeSection />
@@ -33,7 +34,7 @@ const Home: NextPage = () => {
 
             <ProcessSection />
 
-            {/* <section className='section stats' aria-label='stats'>
+            <section className='section stats' aria-label='stats'>
               <div className='container'>
                 <ul className='grid-list'>
                   <li>
@@ -78,11 +79,11 @@ const Home: NextPage = () => {
                   </li>
                 </ul>
               </div>
-            </section> */}
+            </section>
           </article>
         </main>
 
-        <Footer />
+        <Footer /> */}
       </div>
     </>
   );
