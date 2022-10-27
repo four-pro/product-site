@@ -19,8 +19,10 @@ const Home: NextPage = () => {
       </Head>
 
       <div id='top'>
-
-        <h1>Site is down for maintenance or for some other reason. If want to enable, contact.</h1>
+        <h1>
+          Site is down for maintenance or for some other reason. If want to
+          enable, contact...
+        </h1>
         {/* <Navbar />
         <main>
           <article>
